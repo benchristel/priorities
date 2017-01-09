@@ -29,7 +29,8 @@ textarea {
   border: none;
   font-size: inherit;
   font-family: inherit;
-  padding: 6px;
+  padding: 12px;
+  line-height: 140%;
   height: 500px;
   width: 100%;
 }
@@ -52,7 +53,11 @@ h1 {
     <textarea></textarea>
     <script type="text/javascript">
 var textarea = document.querySelector('textarea')
-textarea.value = window.localStorage.getItem('priorities') || ''
+if (window.localStorage && window.localStorage.getItem('priorities')) {
+  textarea.value = window.localStorage.getItem('priorities')
+} else {
+  textarea.value = '1. Write a todo list here\n2. ???\n3. Profit!'
+}
 
 textarea.addEventListener('keyup', function() {
   window.localStorage.setItem('priorities', textarea.value)
