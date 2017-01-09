@@ -15,5 +15,7 @@ Just go to [benchristel.github.io/priorities](benchristel.github.io/priorities) 
 ## Installation (Chrome)
 
 1. Install the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension. (Disclaimer: I didn't make this extension; I just use it. Install at your own risk.)
-2. Go to the extension's options page (chrome-extension://icpgjfneehieebagbmdbhnlpiopdcmna/options.html) and change the Redirect URL to `https://benchristel.github.io/priorities/`.
+2. Go to the extension's options page (chrome-extension://icpgjfneehieebagbmdbhnlpiopdcmna/options.html)
+  1. Change the Redirect URL to `https://benchristel.github.io/priorities/`.
+  2. I recommend checking the box for "Always update tab, not redirect" as well—it lets you start typing in the search bar as soon as the new tab is opened.
 3. Open a new tab to check that it worked :)
