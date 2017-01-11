@@ -10,7 +10,7 @@ Hopefully, this makes it easier to get out of the rut of checking the same old s
 
 ## Try it out!
 
-Just go to [benchristel.github.io/priorities](benchristel.github.io/priorities) to see what it's like.
+Just go to [benchristel.github.io/priorities](https://benchristel.github.io/priorities) to see what it's like.
 
 ## Installation (Chrome)
 
